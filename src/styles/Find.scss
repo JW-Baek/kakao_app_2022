@@ -1,0 +1,55 @@
+/* Find.scss */
+
+
+
+
+.find_method {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background: #eee;
+  
+    li {
+      overflow: hidden;
+      flex: 1;
+  
+      a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #513736;
+        transition: transform 300ms linear;
+      }
+  
+      a:hover {
+          transform: scale(1.05);
+        }
+
+      span {
+        font-size: 22px;
+        margin: 3px 0;
+      }
+    }
+  }
+  
+  /* recommend_section */
+  
+  .recommend_section {
+    header {
+      height: 22px;
+      line-height: 22px;
+      text-indent: 15px;
+      margin-top: 3px;
+      color: #8e9399;
+    }
+  
+    li {
+      height: 54px;
+      line-height: 54px;
+      border-top: 1px solid #ebebeb;
+      border-bottom: 1px solid #ebebeb;
+      text-align: center;
+      color: #8e9399;
+      font-size: 14px;
+    }
+  }
